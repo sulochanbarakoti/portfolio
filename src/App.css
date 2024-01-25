@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+/* Apply styles to your navbar container */
+Navbar {
+  background-color: #333; /* Set your navbar background color */
+  padding: 15px; /* Adjust padding based on your design */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Set the drop shadow properties */
+}
+
+/* Example styling for navbar links (customize as needed) */
+Navbar Nav.Link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+/* Change link color on hover (customize as needed) */
+Navbar Nav.Link:hover {
+  color: rgb(32, 166, 249); /* Change to your desired hover color */
+}
+
+/* #home,
+#about,
+#projects,
+#experience,
+#contact {
+  height: 500px;
+} */
+
+#education,
+#project {
+  background-color: #dee2e6;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
