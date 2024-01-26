@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../profile.jpeg";
+import profile from "../images/profile.jpeg";
 import Image from "react-bootstrap/Image";
 import { Button, Container, Row, Col, Stack } from "react-bootstrap";
 

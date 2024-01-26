@@ -1,5 +1,5 @@
 import React from "react";
-import degree from "../degree.jpeg";
+import degree from "../images/degree.jpeg";
 import { Col, Container, Image, Row, Stack } from "react-bootstrap";
 
 const Education = () => {
