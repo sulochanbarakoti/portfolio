@@ -1,39 +1,31 @@
 .App {
   text-align: center;
-  background-color: white;
 }
 
-/* Apply styles to your navbar container */
-Navbar {
-  background-color: #333; /* Set your navbar background color */
-  padding: 15px; /* Adjust padding based on your design */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Set the drop shadow properties */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-/* Example styling for navbar links (customize as needed) */
-Navbar Nav.Link {
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 16px;
 }
 
-/* Change link color on hover (customize as needed) */
-Navbar Nav.Link:hover {
-  color: rgb(32, 166, 249); /* Change to your desired hover color */
-}
-
-/* #home,
-#about,
-#projects,
-#experience,
-#contact {
-  height: 500px;
-} */
-
-#education,
-#projects {
-  background-color: #dee2e6;
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
