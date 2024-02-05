@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../services/ProjectCards";
-import { PROJECTS } from "../Constants";
+import { PROJECTS } from "../data";
 
 function Projects() {
   return (

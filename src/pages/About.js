@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import developer from "../Files/developer.png";
-import { SKILLS, TOOLS } from "../Constants";
+import { SKILLS, TOOLS } from "../data";
 function About() {
   return (
     <Container fluid className="about-section">
