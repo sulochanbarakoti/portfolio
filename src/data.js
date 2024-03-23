@@ -3,7 +3,8 @@ import task from "../src/Files/task-manager.png";
 import hireme from "../src/Files/hire-me.png";
 import movie from "../src/Files/movie.png";
 import todo from "../src/Files/todo.png";
-import explore from "../src/Files/explore.png";
+import travel from "../src/Files/travel.png";
+import ecommerce from "../src/Files/ecommerce.png";
 
 export const PROJECTS = [
   {
@@ -31,6 +32,15 @@ export const PROJECTS = [
     url: "https://github.com/sulochanbarakoti/Job-Search.git",
   },
   {
+    image: ecommerce,
+    name: "E-commerce Webpage",
+    technologyUsed:
+      "React.js, Bootstrap, React Bootstrap, Node.js, MongoDB (MERN) stack",
+    description:
+      "This web application is ecommerce webpage where you can add product to cart and using admin panel you can add the product also. ",
+    url: "https://github.com/sulochanbarakoti/e-commerce.git",
+  },
+  {
     image: movie,
     name: "Movie search",
     technologyUsed: "React Native",
@@ -43,16 +53,16 @@ export const PROJECTS = [
     name: "Todo List",
     technologyUsed: "React Native",
     description:
-      "This appliation help to take a list  of tasks and mark the completed one and delete also. All the data will stored in local storage.",
+      "This application help to take a list  of tasks and mark the completed one and delete also. All the data will stored in local storage.",
     url: "https://github.com/sulochanbarakoti/todo_list.git",
   },
   {
-    image: explore,
-    name: "Explore and Travel {Not Complete}",
-    technologyUsed: "React Native, Bootstrap",
+    image: travel,
+    name: "Explore and Trek in Nepal",
+    technologyUsed: "React.js, Bootstrap, React Bootstrap",
     description:
-      "This mobile application is in process and will help to find the place to explore and find hotels and other attractive places.",
-    url: "https://github.com/sulochanbarakoti/Mobile_App_explore-and-travel.git",
+      "This web application is travel based application for Nepal visit. You can explore and find attractive trip to Nepal",
+    url: "https://github.com/sulochanbarakoti/Travel-Guide.git",
   },
 ];
 
@@ -63,6 +73,8 @@ export const SKILLS = [
   "Nodejs",
   "Html",
   "CSS",
+  "C#",
+  "MongoDB",
   "Git",
 ];
 
